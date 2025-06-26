@@ -151,3 +151,45 @@ body {
   opacity: 0.95;
   color: #666;
 }
+.clipboard-bar {
+  position: static;
+  width: 100%;
+  background: none;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 14px 0 8px 0;
+  font-size: 15px;
+  color: #3730a3;
+  z-index: 100;
+  box-shadow: 0 -2px 12px rgba(99,102,241,0.06);
+}
+.clipboard-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6366f1;
+  margin-left: 18px;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+.clipboard-bar-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  width: 100%;
+  padding-left: 2px;
+}
+.clipboard-bar-content span {
+  background: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  color: #3730a3;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(99,102,241,0.06);
+  margin-right: 16px;
+}
